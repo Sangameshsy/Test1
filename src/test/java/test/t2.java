@@ -10,6 +10,8 @@ public class t2 //extends Generic
 	public void dwdwdw()
 	{
 		System.out.println("cdcssvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
+
+//cdfd
 	}
 
 }
