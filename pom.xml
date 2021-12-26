@@ -182,6 +182,9 @@
                <suiteXmlFiles>
                   <suiteXmlFile>C:\Users\hp\eclipse-workspace\test\testng.xml</suiteXmlFile>
                </suiteXmlFiles>
+               <systemPropertyVariables>
+               <browsers>${Browser}</browsers>
+               </systemPropertyVariables>
             </configuration>
                  
             </plugin>

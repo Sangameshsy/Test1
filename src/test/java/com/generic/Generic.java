@@ -9,6 +9,7 @@ import org.openqa.selenium.Keys;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 
 import com.utility.BrowserSetup;
 
@@ -30,11 +31,12 @@ public class Generic extends ObjectRepo
 		
 	}
 	
-	
+	@Parameters("Browser")
 	@BeforeTest
-	public void openApp()
+	public void openApp(String BrowserType)
 	{
-		BrowserSetup.openBrowser(prop.getProperty("Browser"));
+//		BrowserSetup.openBrowser(prop.getProperty("Browser"));
+		BrowserSetup.openBrowser(BrowserType);
 		driver.get(prop.getProperty("URL"));
 		driver.findElement(By.name("q")).sendKeys("Gmail",Keys.ENTER);
 	}

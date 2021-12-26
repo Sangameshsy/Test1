@@ -2,34 +2,41 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43622" started-at="2021-12-25T18:25:12 IST" finished-at="2021-12-25T18:25:55 IST">
+  <suite name="Suite" duration-ms="17430" started-at="2021-12-26T14:32:31 IST" finished-at="2021-12-26T14:32:48 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43622" started-at="2021-12-25T18:25:12 IST" finished-at="2021-12-25T18:25:55 IST">
+    <test name="Test" duration-ms="17430" started-at="2021-12-26T14:32:31 IST" finished-at="2021-12-26T14:32:48 IST">
       <class name="test.TestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestClass@76707e36]" name="setUp" is-config="true" duration-ms="10" started-at="2021-12-25T18:25:12 IST" finished-at="2021-12-25T18:25:12 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.TestClass@694e1548]" name="setUp" is-config="true" duration-ms="9" started-at="2021-12-26T14:32:31 IST" finished-at="2021-12-26T14:32:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openApp()[pri:0, instance:test.TestClass@76707e36]" name="openApp" is-config="true" duration-ms="41468" started-at="2021-12-25T18:25:12 IST" finished-at="2021-12-25T18:25:53 IST">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:test.TestClass@694e1548]" name="openApp" is-config="true" duration-ms="13198" started-at="2021-12-26T14:32:31 IST" finished-at="2021-12-26T14:32:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="T1()[pri:0, instance:test.TestClass@76707e36]" name="T1" duration-ms="1" started-at="2021-12-25T18:25:53 IST" finished-at="2021-12-25T18:25:53 IST">
+        <test-method status="PASS" signature="T1()[pri:0, instance:test.TestClass@694e1548]" name="T1" duration-ms="0" started-at="2021-12-26T14:32:44 IST" finished-at="2021-12-26T14:32:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T1 -->
-        <test-method status="PASS" signature="T2()[pri:1, instance:test.TestClass@76707e36]" name="T2" duration-ms="1" started-at="2021-12-25T18:25:53 IST" finished-at="2021-12-25T18:25:53 IST">
+        <test-method status="PASS" signature="T2()[pri:1, instance:test.TestClass@694e1548]" name="T2" duration-ms="0" started-at="2021-12-26T14:32:44 IST" finished-at="2021-12-26T14:32:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestClass@76707e36]" name="tearDown" is-config="true" duration-ms="2076" started-at="2021-12-25T18:25:53 IST" finished-at="2021-12-25T18:25:55 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestClass@694e1548]" name="tearDown" is-config="true" duration-ms="4170" started-at="2021-12-26T14:32:44 IST" finished-at="2021-12-26T14:32:48 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.TestClass -->
       <class name="test.t2">
-        <test-method status="PASS" signature="dwdwdw()[pri:0, instance:test.t2@1d16f93d]" name="dwdwdw" duration-ms="1" started-at="2021-12-25T18:25:53 IST" finished-at="2021-12-25T18:25:53 IST">
+        <test-method status="PASS" signature="dwdwdw()[pri:0, instance:test.t2@65e2dbf3]" name="dwdwdw" duration-ms="2" started-at="2021-12-26T14:32:44 IST" finished-at="2021-12-26T14:32:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dwdwdw -->
