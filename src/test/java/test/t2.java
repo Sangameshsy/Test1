@@ -12,6 +12,7 @@ public class t2 //extends Generic
 		System.out.println("cdcssvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
 
 //cdfdcas
+//sfsf
 
 	}
 
