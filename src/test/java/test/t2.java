@@ -10,7 +10,7 @@ public class t2 //extends Generic
 	public void dwdwdw()
 	{
 		System.out.println("cdcssvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv");
-		System.out.println("added new Line of code1234");
+		System.out.println("added new Line of code22");
 
 
 	}
